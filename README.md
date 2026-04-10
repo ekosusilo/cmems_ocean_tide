@@ -4,8 +4,11 @@ An Autoprocessing tidal data from Marine Copernicus global dataset for each fish
 (1) load and filter fishing port type 
 
 (2) Fetches tidal data
+    
     (a) Load data from Copernicus Marine using the port's specific longitude and latitude at the corresponding time range.
+    
     (b) Converts tidal data into a pandas DataFrame.
+    
     (c) Localizes the time to the corresponding Indonesia time zone > GMT+7 (Asia/Jakarta), GMT+8 (Asia/Makassar), GMT+9 (Asia/Jayapura)
     
 (3) Saves data to a CSV file, dynamically naming them based on the port's type and name.
