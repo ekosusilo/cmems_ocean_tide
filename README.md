@@ -22,6 +22,9 @@ An autoprocessing of ocean tide data from the Marine Copernicus global dataset (
 
 **Credentials** 
 
-To be able to access to all Copernicus Marine Data Store services, first you should create a configuration file called `.copernicusmarine-credentials`. By default, this file is saved in the user’s home directory. The `login` function allows you to save credentials and needs to be run only once. Then you can use the rest of the functionalities without specifying your credentials anymore.
+To access all Copernicus Marine Data Store services, first, you should create a configuration file called `.copernicusmarine-credentials`. By default, this file is saved in the user’s home directory. The `login` function allows you to save credentials and needs to be run only once. Then you can use the remaining functionality without having to specify your credentials again.
 
     copernicusmarine.login(username='<your_username>', password='<your_password>')
+
+** TIde Plot**
+<img width="1200" height="600" alt="715_72_21_PPI_Paranggi" src="https://github.com/user-attachments/assets/5d445531-63ee-4c3d-84f4-37a8fdc6b15e" />
